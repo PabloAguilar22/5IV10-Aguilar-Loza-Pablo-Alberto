@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Js/viggenere.js"></script>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Viggenere</title>
+</head>
+<body>
+  <br>
+  <br>
+    <div class="contenedor">
+        <div class="row">
+          <br>
+          <h2>Viggenere</h2>
+        </div>
+        <div class="row">
+          <label>Mensaje</label>
+          <input type="text" id="mensaje"/>
+        </div>
+        <div class="row">
+          <label>Clave</label>
+          <input type="text" id="clave"/>
+        </div>
+        <div class="row">
+          <input type="button" class="button-primary" value="Click" onclick="cifradoVigenere('mensaje', 'clave')"/>
+        </div>
+        <div class="row">
+          <label>Resultado</label>
+          <p id="resultado"></p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <a href="../index.html" ><input type="button" value="Regresar"></a>
+</body>
+</html>
